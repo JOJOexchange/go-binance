@@ -6,13 +6,14 @@ import (
 	"crypto/tls"
 	"encoding/json"
 	"fmt"
-	"github.com/adshao/go-binance/v2/common"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"net/url"
 	"os"
 	"time"
+
+	"github.com/JOJOexchange/go-binance/v2/common"
 
 	"github.com/bitly/go-simplejson"
 )
